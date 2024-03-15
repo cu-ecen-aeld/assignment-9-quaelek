@@ -1,0 +1,51 @@
+# Node binaries
+actions-runner/externals/node*/bin/node
+
+# GitHub Actions Runner Archive
+actions-runner/*.tar.gz
+
+# Dependency directories
+node_modules/
+vendor/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and editor folders
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+
+# Build outputs
+dist/
+tmp/
+out/
+build/
+*.log
+
+# Environment files
+.env
+.env.local
+
+# Compiled object files, build artifacts, and logs
+*.o
+
+# Specific ignore patterns from branches
+writer
+Test_*_Runner.c
+crosstool-ng
+aesd-build
+test.sh.log
+
+aesdsocket
+server/aesdsocket
+server/valgrind-out.txt
+
